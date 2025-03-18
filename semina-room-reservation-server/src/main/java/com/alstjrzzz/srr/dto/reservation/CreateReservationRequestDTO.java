@@ -24,9 +24,9 @@ public class CreateReservationRequestDTO {
     @NotBlank
     private String purpose;
 
-    @NotBlank
+    @NotNull
     private LocalDateTime startTime;
 
-    @NotBlank
+    @NotNull
     private LocalDateTime endTime;
 }

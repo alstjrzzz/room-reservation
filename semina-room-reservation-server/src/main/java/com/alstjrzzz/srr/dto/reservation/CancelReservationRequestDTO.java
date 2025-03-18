@@ -11,9 +11,6 @@ public class CancelReservationRequestDTO {
     private Long reservationId;
 
     @NotBlank
-    private String nickname;
-
-    @NotBlank
     private String studentName;
 
     @NotNull

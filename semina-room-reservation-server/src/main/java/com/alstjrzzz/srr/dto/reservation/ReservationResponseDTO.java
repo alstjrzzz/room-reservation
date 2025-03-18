@@ -2,9 +2,11 @@ package com.alstjrzzz.srr.dto.reservation;
 
 import com.alstjrzzz.srr.domain.Reservation;
 import lombok.Builder;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
 
+@Getter
 @Builder
 public class ReservationResponseDTO {
 
